@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <title>Button Click Game</title>
+</head>
+<body>
+
+  <!-- Welcome Modal -->
+  <div id="welcomeModal" class="modal">
+    <div class="modal-content">
+      <h2>Guess that Color 😊</h2>
+      <p class="intro">Select the box that is what the computer if you win you get one point if you lose you get zero ponts</p>
+      <p>Enter the number of rounds you want to play:</p>
+      <input type="number" id="roundInput" min="1" value="3">
+      <button id="startGame">Start</button>
+    </div>
+  </div>
+
+  <div class="all-btn">
+    <button></button> 
+    <button></button>
+    <button></button>
+    <button></button>
+    <button></button>
+    <button></button>    
+  </div>
+
+  <!-- Scoreboard -->
+  <div id="scoreboard">
+    <p>Score: <span id="score">0</span></p>
+    <p>Games Played: <span id="gamesPlayed">0</span></p>
+  </div>
+
+  <!-- Chat Icon -->
+  <i class="fa-brands fa-rocketchat" id="chatIcon"></i>
+
+  <script src="./script.js"></script>
+</body>
+</html>

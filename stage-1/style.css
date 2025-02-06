@@ -1,0 +1,87 @@
+body {
+  background-color: black;
+  position: relative;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.all-btn {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 20px;
+}
+
+#startGame{
+  height: fit-content;
+  background-color: black;
+  display: block;
+  color: goldenrod;
+  width: 100px;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+  margin: auto;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid rgb(88, 46, 46);
+  outline: none;
+  box-shadow: 2px 2px 2px rgb(61, 19, 19);
+}
+
+button{
+  width: 200px;
+  height: 300px;
+}
+
+.fa-rocketchat {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  font-size: 50px;
+  color: goldenrod;
+  cursor: pointer;
+}
+.intro{
+  width: 80%;
+  margin: auto;
+}
+/* Modal Styling */
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+ input{
+  color: white;
+  background-color: inherit;
+  border: none;
+  width: 70%;
+  margin: auto;
+  border-bottom:1px solid  red;
+  box-shadow: 0 4px 2px rgba(217, 23, 23, 0.481) ;
+ }
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 80%;
+  background: black;
+  color: rgb(231, 209, 153);
+  padding: 20px;
+  text-align: center;
+  border: 1px solid red;
+  box-shadow: 2px 2px 2px red;
+  border-radius: 8px;
+}
+
+#scoreboard {
+  margin-top: 20px;
+  font-size: 20px;
+}
